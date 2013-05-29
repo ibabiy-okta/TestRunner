@@ -1,0 +1,10 @@
+D:\project\TestRunner\TestRunner\bin\Debug\TestRunner.exe
+D:\project\TestRunner\TestRunner\bin\Debug\TestRunner.pdb
+D:\project\TestRunner\TestRunner\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.Properties.Resources.resources
+D:\project\TestRunner\TestRunner\obj\x86\Debug\ResGen.read.1.tlog
+D:\project\TestRunner\TestRunner\obj\x86\Debug\ResGen.write.1.tlog
+D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.exe
+D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.pdb
+D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.MainForm.resources
+D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.SettingsForm.resources
