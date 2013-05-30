@@ -8,3 +8,13 @@ D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.exe
 D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.pdb
 D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.MainForm.resources
 D:\project\TestRunner\TestRunner\obj\x86\Debug\TestRunner.SettingsForm.resources
+D:\project\TestRunnerGit\TestRunner\obj\x86\Debug\TestRunner.exe
+D:\project\TestRunnerGit\TestRunner\obj\x86\Debug\TestRunner.pdb
+D:\project\TestRunnerGit\TestRunner\bin\Debug\TestRunner.exe
+D:\project\TestRunnerGit\TestRunner\bin\Debug\TestRunner.pdb
+D:\project\TestRunnerGit\TestRunner\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\project\TestRunnerGit\TestRunner\obj\x86\Debug\TestRunner.MainForm.resources
+D:\project\TestRunnerGit\TestRunner\obj\x86\Debug\TestRunner.Properties.Resources.resources
+D:\project\TestRunnerGit\TestRunner\obj\x86\Debug\TestRunner.SettingsForm.resources
+D:\project\TestRunnerGit\TestRunner\obj\x86\Debug\ResGen.read.1.tlog
+D:\project\TestRunnerGit\TestRunner\obj\x86\Debug\ResGen.write.1.tlog

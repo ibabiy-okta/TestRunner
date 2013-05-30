@@ -38,14 +38,14 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
             this.OSComboBox = new System.Windows.Forms.ToolStripComboBox();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.testName = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.runSauseLabsBtn = new System.Windows.Forms.ToolStripButton();
             this.createOverrideFileBtn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
+            this.testName = new System.Windows.Forms.ToolStripTextBox();
             this.runTestBtn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.SettingsBtn = new System.Windows.Forms.ToolStripButton();
             this.clearConsoleBtn = new System.Windows.Forms.ToolStripButton();
             this.tableLayoutPanel1.SuspendLayout();
@@ -60,7 +60,7 @@
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(1302, 458);
             this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "test";
+            this.richTextBox1.Text = "";
             this.richTextBox1.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.richTextBox1_LinkClicked);
             // 
             // textBox1
@@ -160,27 +160,6 @@
             this.OSComboBox.Name = "OSComboBox";
             this.OSComboBox.Size = new System.Drawing.Size(121, 50);
             // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 50);
-            // 
-            // testName
-            // 
-            this.testName.Name = "testName";
-            this.testName.Size = new System.Drawing.Size(150, 50);
-            // 
-            // toolStripLabel5
-            // 
-            this.toolStripLabel5.Name = "toolStripLabel5";
-            this.toolStripLabel5.Size = new System.Drawing.Size(62, 47);
-            this.toolStripLabel5.Text = "Test name";
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 50);
-            // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
@@ -207,6 +186,22 @@
             this.createOverrideFileBtn.Text = "Create override file";
             this.createOverrideFileBtn.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 50);
+            // 
+            // toolStripLabel5
+            // 
+            this.toolStripLabel5.Name = "toolStripLabel5";
+            this.toolStripLabel5.Size = new System.Drawing.Size(62, 47);
+            this.toolStripLabel5.Text = "Test name";
+            // 
+            // testName
+            // 
+            this.testName.Name = "testName";
+            this.testName.Size = new System.Drawing.Size(150, 50);
+            // 
             // runTestBtn
             // 
             this.runTestBtn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -217,6 +212,11 @@
             this.runTestBtn.Size = new System.Drawing.Size(36, 47);
             this.runTestBtn.Text = "Run Test";
             this.runTestBtn.Click += new System.EventHandler(this.runTestBtn_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 50);
             // 
             // SettingsBtn
             // 
