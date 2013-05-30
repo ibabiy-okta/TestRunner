@@ -42,8 +42,8 @@
             this.backColorBtn = new System.Windows.Forms.Button();
             this.fontSelectBtn = new System.Windows.Forms.Button();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.fontColorExample = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.backColorExample = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.fontColorExample = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.fontExample = new System.Windows.Forms.Label();
             this.fontDialog = new System.Windows.Forms.FontDialog();
             this.SuspendLayout();
@@ -51,7 +51,7 @@
             // button1
             // 
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.Location = new System.Drawing.Point(545, 203);
+            this.button1.Location = new System.Drawing.Point(545, 266);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -123,7 +123,7 @@
             // 
             // fontColorBtn
             // 
-            this.fontColorBtn.Location = new System.Drawing.Point(15, 144);
+            this.fontColorBtn.Location = new System.Drawing.Point(15, 207);
             this.fontColorBtn.Name = "fontColorBtn";
             this.fontColorBtn.Size = new System.Drawing.Size(100, 23);
             this.fontColorBtn.TabIndex = 8;
@@ -133,7 +133,7 @@
             // 
             // backColorBtn
             // 
-            this.backColorBtn.Location = new System.Drawing.Point(15, 174);
+            this.backColorBtn.Location = new System.Drawing.Point(15, 237);
             this.backColorBtn.Name = "backColorBtn";
             this.backColorBtn.Size = new System.Drawing.Size(100, 23);
             this.backColorBtn.TabIndex = 9;
@@ -143,7 +143,7 @@
             // 
             // fontSelectBtn
             // 
-            this.fontSelectBtn.Location = new System.Drawing.Point(15, 203);
+            this.fontSelectBtn.Location = new System.Drawing.Point(15, 266);
             this.fontSelectBtn.Name = "fontSelectBtn";
             this.fontSelectBtn.Size = new System.Drawing.Size(100, 23);
             this.fontSelectBtn.TabIndex = 10;
@@ -159,32 +159,32 @@
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.backColorExample,
             this.fontColorExample});
-            this.shapeContainer1.Size = new System.Drawing.Size(660, 244);
+            this.shapeContainer1.Size = new System.Drawing.Size(663, 301);
             this.shapeContainer1.TabIndex = 11;
             this.shapeContainer1.TabStop = false;
-            // 
-            // fontColorExample
-            // 
-            this.fontColorExample.BackColor = System.Drawing.SystemColors.WindowText;
-            this.fontColorExample.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
-            this.fontColorExample.FillGradientColor = System.Drawing.SystemColors.WindowText;
-            this.fontColorExample.Location = new System.Drawing.Point(124, 145);
-            this.fontColorExample.Name = "fontColorExample";
-            this.fontColorExample.Size = new System.Drawing.Size(25, 22);
             // 
             // backColorExample
             // 
             this.backColorExample.BackColor = System.Drawing.SystemColors.Control;
             this.backColorExample.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
             this.backColorExample.Cursor = System.Windows.Forms.Cursors.Default;
-            this.backColorExample.Location = new System.Drawing.Point(124, 174);
+            this.backColorExample.Location = new System.Drawing.Point(127, 237);
             this.backColorExample.Name = "backColorExample";
             this.backColorExample.Size = new System.Drawing.Size(25, 22);
+            // 
+            // fontColorExample
+            // 
+            this.fontColorExample.BackColor = System.Drawing.SystemColors.WindowText;
+            this.fontColorExample.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.fontColorExample.FillGradientColor = System.Drawing.SystemColors.WindowText;
+            this.fontColorExample.Location = new System.Drawing.Point(127, 208);
+            this.fontColorExample.Name = "fontColorExample";
+            this.fontColorExample.Size = new System.Drawing.Size(25, 22);
             // 
             // fontExample
             // 
             this.fontExample.AutoSize = true;
-            this.fontExample.Location = new System.Drawing.Point(121, 208);
+            this.fontExample.Location = new System.Drawing.Point(121, 271);
             this.fontExample.Name = "fontExample";
             this.fontExample.Size = new System.Drawing.Size(47, 13);
             this.fontExample.TabIndex = 12;
@@ -194,7 +194,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(660, 244);
+            this.ClientSize = new System.Drawing.Size(663, 301);
             this.Controls.Add(this.fontExample);
             this.Controls.Add(this.fontSelectBtn);
             this.Controls.Add(this.backColorBtn);

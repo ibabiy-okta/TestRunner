@@ -22,6 +22,8 @@ namespace TestRunner
         private string fontSrikeout;
         private string fontUnderline;
 
+        private string pluginName;
+
         private Settings()
         {
             workspaceLocation = "";
@@ -109,11 +111,17 @@ namespace TestRunner
             set { fontUnderline = value; }
         }
 
+        public string PluginName
+        {
+            get { return pluginName; }
+            set { pluginName = value; }
+        }
 
         public void SaveToRegistry()
         {
             RegistryKey key = Registry.CurrentUser.CreateSubKey("Software\\TestRunner");
             key.SetValue("WorkSpaceLocation", workspaceLocation);
+           // key.SetValue("PluginName", pluginName);
             key.SetValue("UserName", userName);
             key.SetValue("AccessKey", accessKey);
             key.SetValue("FontColor", fontColor);
@@ -124,6 +132,7 @@ namespace TestRunner
             key.SetValue("FontItalic", fontItalic);
             key.SetValue("FontSrikeout", fontSrikeout);
             key.SetValue("FontUnderline", fontUnderline);
+            
         }
 
         public void ReadFromRegistry()
@@ -144,6 +153,7 @@ namespace TestRunner
                     fontItalic = key.GetValue("FontItalic").ToString();
                     fontSrikeout = key.GetValue("FontSrikeout").ToString();
                     fontUnderline = key.GetValue("FontUnderline").ToString();
+                   // pluginName = key.GetValue("PluginName").ToString();
 
                 }
             }
@@ -152,7 +162,7 @@ namespace TestRunner
 
         public bool CheckConf() 
         {
-            return workspaceLocation != "";
+            return (workspaceLocation != "");// && (pluginName!="");
         }
     }
 }

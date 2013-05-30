@@ -42,6 +42,7 @@ namespace TestRunner
                         "saucelabs.browser.version=${browser.version}\n" +
                         "saucelabs.os=${os.version}\n\n" +
 
+                        "saucelabs.${plugin.browser}.plugin.url=sauce-storage:Okta${plugin.name}PluginSilentInstaller-early-access.exe\n" +
                         "selenium.test.url=http://backdoorentry.okta1.com:1802\n" +
                         "test.app.server=rain.okta1.com\n\n" +
 
@@ -89,12 +90,12 @@ namespace TestRunner
         private void addBrowsers()
         {
             browsers = new Dictionary<string, Browser>();
-            browsers.Add("IE6", new Browser("iexplore", "6"));
-            browsers.Add("IE7", new Browser("iexplore", "7"));
-            browsers.Add("IE8", new Browser("iexplore", "8"));
-            browsers.Add("IE9", new Browser("iexplore", "9"));
-            browsers.Add("FireFox19", new Browser("firefox", "19"));
-            browsers.Add("Chrome", new Browser("googlechrome", ""));
+            browsers.Add("IE6", new Browser("iexplore", "6", "IE", "ie"));
+            browsers.Add("IE7", new Browser("iexplore", "7", "IE", "ie"));
+            browsers.Add("IE8", new Browser("iexplore", "8", "IE", "ie"));
+            browsers.Add("IE9", new Browser("iexplore", "9", "IE", "ie"));
+            browsers.Add("FireFox19", new Browser("firefox", "19", "Firefox", "firefox"));
+            browsers.Add("Chrome", new Browser("googlechrome", "", "Chrome", "chrome"));
         }
 
         private void startRunningCommand()
@@ -181,6 +182,8 @@ namespace TestRunner
                                      .Replace("${browser.name}", browser.Name)
                                      .Replace("${browser.version}", browser.Version)
                                      .Replace("${os.version}", OSComboBox.Text)
+                                     .Replace("${plugin.name}", browser.BrowserName)
+                                     .Replace("${plugin.browser}", browser.BrowserPlugin)
                             );
                 writer.Close();
                 writer.Dispose();
